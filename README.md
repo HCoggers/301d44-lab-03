@@ -4,6 +4,8 @@ Feb 14, 2019
 
 ## Feature 01: Display Images
 
+Aaron was Navigator, Harry was Driver
+
 Estimate of time needed to complete: 1 hr
 
 Start time: 9a
