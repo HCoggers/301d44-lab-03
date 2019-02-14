@@ -36,9 +36,9 @@ Harry was driver, Aaron was Navigator
 
 Start time: 12:08PM
 
-Finish time: _____
+Finish time: 1:02PM
 
-Actual time needed to complete: _____
+Actual time needed to complete: 54min
 
 
 
