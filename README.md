@@ -8,9 +8,9 @@ Estimate of time needed to complete: 1 hr
 
 Start time: 9a
 
-Finish time: _____
+Finish time: 9:49a
 
-Actual time needed to complete: _____
+Actual time needed to complete: 49 minutes
 
 
 ## Feature 02: Filter Images
