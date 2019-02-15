@@ -50,7 +50,7 @@ Aaron was Driver, Harry was Navigator
 Estimate of time needed to complete: 45 min
 
 Start time: 9:30am
-
+Switch Drivers at 11:13
 Finish time: 
 
 Actual time needed to complete: 

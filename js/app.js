@@ -35,14 +35,23 @@ Horn.readJson = () => {
     .then(data => {
       data.forEach( obj => {
         Horn.allHorns.push(new Horn(obj));
-      })
+      });
     })
-    .then(Horn.loadHorns)
+  $.get('data/page-2.json', 'json')
+    .then(data => {
+      data.forEach( obj => {
+        Horn.allHorns.push(new Horn(obj));
+      });
+    })
+    .then(Horn.loadHorns);
 }
 
-Horn.loadHorns = () => Horn.allHorns.forEach( (horn, idx) => horn.render(idx));
 
-$(() => Horn.readJson());
+
+
+
+Horn.loadHorns = () => Horn.allHorns.forEach( (horn, idx) => horn.render(idx));
+$(() =>   Horn.readJson());
 
 $('select').on('change', (selection) => {
   console.log($('select :selected').val());
@@ -52,7 +61,6 @@ $('select').on('change', (selection) => {
   pictures.forEach( val => {
     if(val.className === $('select :selected').val()){
       console.log($(`div .${val.className}`));
-
        $(`div.${val.className}`).show();
     };
   });
