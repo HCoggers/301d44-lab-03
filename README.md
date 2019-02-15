@@ -1,18 +1,19 @@
 # 301d44-lab-03
+#### Created by Harrison Cogswell and Aaron Ferris
 Feb 14, 2019
 
 
 ## Feature 01: Display Images
 
-Harry was Driver, Aaron was Navigator for half the time, then we swapped.
+Harry was Driver, Aaron was Navigator
 
 Estimate of time needed to complete: 1 hr
 
 Start time: 9:00am
 
-Finish time: 12:17am
+Finish time: 9:48am
 
-Actual time needed to complete: 3 hr 17 min
+Actual time needed to complete: 48 min
 
 
 
@@ -50,10 +51,10 @@ Aaron was Driver, Harry was Navigator
 Estimate of time needed to complete: 45 min
 
 Start time: 9:30am
-Switch Drivers at 11:13
-Finish time: 
+### Switch Drivers at 11:13
+Finish time: 12:17
 
-Actual time needed to complete: 
+Actual time needed to complete: 2 hr 47 min
 
 
 
@@ -61,13 +62,13 @@ Actual time needed to complete:
 
 Harry was Driver, Aaron was Navigator
 
-Estimate of time needed to complete: 45 min
+Estimate of time needed to complete:
 
-Start time: 10:00am
+Start time:
 
-Finish time: 11:54am
+Finish time:
 
-Actual time needed to complete: 1hr 54min
+Actual time needed to complete:
 
 
 ## Feature 03: Styling With Flexbox
@@ -76,13 +77,11 @@ Actual time needed to complete: 1hr 54min
 
 ## Feature 04: Sort Images
 
-Estimate of time needed to complete: 1.5 hr
-Harry was driver, Aaron was Navigator
+Estimate of time needed to complete:
 
-Start time: 12:08PM
+Start time:
 
-Finish time: 1:02PM
+Finish time:
 
-Actual time needed to complete: 54min
-Created by Harrison Cogswell and Aaron Ferris
+Actual time needed to complete:
 
