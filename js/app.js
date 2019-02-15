@@ -8,7 +8,7 @@ function Horn(horn) {
   this.horns = horn.horns;
 }
 
-const hornKeys= [];
+let hornKeys= [];
 Horn.allHorns = [];
 
 Horn.prototype.render = function(idx) {
@@ -46,11 +46,40 @@ Horn.readJson = () => {
     .then(Horn.loadHorns);
 }
 
+$('#gal1').on('click', () => {
+  console.log('gal2');
+  runSwitch(1);
+})
 
+$('#gal2').on('click', () => {
+  console.log('gal1');
+  runSwitch(2);
+})
 
+const runSwitch = (gallery) => {
+  $('div').remove();
+  hornKeys = [];
+  $('option').not(':first').remove();
+  switch(gallery){
+    case 1: 
+    for(let i = 0; i < 20; i++){
+      Horn.allHorns[i].render(i);
+      console.log('case 1');
+    }
+    break;
+    case 2:
+    for(let i = 20; i < 40; i++){
+      Horn.allHorns[i].render(i);
+      console.log('case 2');
+    }
+  };
+}
 
+Horn.loadHorns = () => {
+  Horn.allHorns.forEach( (horn, idx) => horn.render(idx));
+  runSwitch(1);
+};
 
-Horn.loadHorns = () => Horn.allHorns.forEach( (horn, idx) => horn.render(idx));
 $(() =>   Horn.readJson());
 
 $('select').on('change', (selection) => {
