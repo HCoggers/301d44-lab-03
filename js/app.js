@@ -31,7 +31,7 @@ Horn.prototype.render = function(idx) {
 }
 
 Horn.readJson = () => {
-  $.get('../data/page-1.json', 'json')
+  $.get('data/page-1.json', 'json')
     .then(data => {
       data.forEach( obj => {
         Horn.allHorns.push(new Horn(obj));
