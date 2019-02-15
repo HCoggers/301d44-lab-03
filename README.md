@@ -4,15 +4,15 @@ Feb 14, 2019
 
 ## Feature 01: Display Images
 
-Harry was Driver, Aaron was Navigator
+Harry was Driver, Aaron was Navigator for half the time, then we swapped.
 
 Estimate of time needed to complete: 1 hr
 
 Start time: 9:00am
 
-Finish time: 9:49am
+Finish time: 12:17am
 
-Actual time needed to complete: 49 minutes
+Actual time needed to complete: 3 hr 17 min
 
 
 
